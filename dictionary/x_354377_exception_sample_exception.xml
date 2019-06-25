@@ -2,5 +2,8 @@
     <element label="Sample Exception" max_length="40" name="x_354377_exception_sample_exception" type="collection">
         <element label="col1" max_length="40" name="col1" type="integer"/>
         <element label="col2" max_length="40" name="col2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Fav Color" max_length="40" name="u_color" type="string"/>
+        <element label="Fav Number" max_length="40" name="u_integer" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
     </element>
 </database>
